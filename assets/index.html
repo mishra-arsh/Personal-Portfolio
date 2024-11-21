@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--===================Header===========================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">A<span>r</span>sh</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="www.facebook.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a href="www.linkedin.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a href="www.instagram.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="www.github.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================HOME============================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome To My World</span>
+            <h1 class="home__title">
+              Hi, I'm Arsh Misra a Computer Science Engineer and
+              <span>FrontEnd Developer</span>.
+            </h1>
+          </div>
+          <img src="./img/home.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--===================ABOUT==========================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="./img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              I am Arsh, a dedicated and innovative Computer Science Engineer
+              with a strong passion for frontend development. I specialize in
+              creating visually stunning, responsive, and user-friendly web
+              applications. With a solid foundation in computer science
+              principles and extensive experience in frontend technologies, I
+              bring a unique blend of technical expertise and creative flair to
+              every project.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+              <span class="tabs__btn" data-target="#experience"
+                >Experience</span
+              >
+              <span class="tabs__btn" data-target="#education"
+                >Education and Certification</span
+              >
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">HTML</p>
+                  <p class="tabs__description">CSS</p>
+                  <p class="tabs__description">JavaScript</p>
+                  <p class="tabs__description">Python</p>
+                  <p class="tabs__description">FrontEnd Development</p>
+                  <p class="tabs__description">MongoDB</p>
+                </div>
+              </div>
+              <div class="tabs__item tab__active" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Netcamp Solutions Private Limited</span> - Summer
+                    Trainee <span>Making and Modifing Websites.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>OASIS INFOBYTE</span> - Python Developer
+                    <span>Worked on GUI based applications.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B.Tech In CSE</span> - AllenHouse Institute of
+                    Technology, Kanpur
+                    <span>2025</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>InterMediate</span> - Woodbine Gardenia School
+                    <span>2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>High School</span> - Woodbine Gardenia School
+                    <span>2019</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Vocational Training (Python)</span> - IIT Kanpur
+                    <span>2024</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>DataBase And SQL</span> - Infosys
+                    <span>2024</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================Projects=======================-->
+
+      <!--===================Portfolio======================-->
+
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">
+          Here is a website for Tourists to help them plan their trip with the
+          help of AI. The AI Trip Planner Website helps them to suggest the
+          places to visit according to their prefernces.
+        </p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="./img/portfolio_1.jpeg" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">AI Trip Planner</h3>
+              <p class="portfolio__description">
+                Plans the trip according to user prefernce.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img src="./img/portfolio_2.png" alt="" class="portfolio__img" />
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Loreal Website</h3>
+              <p class="portfolio__description">
+                Clone of Loreal Paris Website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================Contact========================-->
+
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+            <p class="contact__description">
+              I'm available for Freelance work. Contact with me via Phone:
+              <a href="tel:+91-6393558314">+91-6393558314</a> or Email:
+              <a href="mailto:mishraarsh9453@gmail.com"
+                >mishraarsh9453@gmail.com</a
+              >
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"
+                  class="contact__input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  class="contact__input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Write a Subject"
+                  class="contact__input"
+                  id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  class="contact__input textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <input type="submit" value="Submit" class="btn" />
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+          <img src="./img/about.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--=============================Footer===========================-->
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">A<span>r</span>sh</a>
+
+        <div class="footer__socials">
+          <a
+            href="www.facebook.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a
+            href="www.linkedin.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+
+          <a
+            href="www.instagram.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="www.github.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2023. All Rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=======================Scroll Up==============================-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
