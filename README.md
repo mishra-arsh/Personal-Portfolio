@@ -1,1 +1,1 @@
-# Personel-Portfolio
+# Personal-Portfolio
